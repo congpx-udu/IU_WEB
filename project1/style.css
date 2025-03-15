@@ -1,0 +1,90 @@
+:root {
+  --style-text: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #1d83a8;
+}
+
+.login-box {
+  background-color: white;
+  width: 500px;
+  height: 600px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.login-text {
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  padding-top: 80px;
+  font-family: var(--style-text);
+  color: rgb(44, 43, 43);
+}
+
+.text {
+  padding-left: 50px;
+  font-size: 20px;
+  font-family: var(--style-text);
+  color: rgb(44, 43, 43);
+}
+
+.text-buton {
+  width: 400px;
+  height: 70px;
+  font-family: var(--style-text);
+  background-color: white;
+  color: rgb(142, 139, 139);
+  text-align: start;
+  border: 1px solid rgb(204, 201, 201);
+  margin-left: 50px;
+  padding-left: 20px;
+}
+
+.show-button {
+  width: 10px;
+  height: 15px;
+  margin-left: 50px;
+  background-color: white;
+  border: 1px solid rgb(81, 78, 78);
+}
+.show-text {
+  font-family: var(--style-text);
+  color: rgb(79, 78, 78);
+}
+
+.signin-button {
+  width: 400px;
+  height: 70px;
+  font-family: var(--style-text);
+  background-color: #1d83a8;
+  color: white;
+  text-align: center;
+  border: 1px solid rgb(204, 201, 201);
+  margin-left: 50px;
+}
+
+.fogot-box {
+  text-align: center;
+  font-family: var(--style-text);
+  margin-bottom: 10px;
+}
+
+.fogot-box span {
+  color: #1d83a8;
+}
+
+.fogot-box span span {
+  color: black;
+}
+
+.signup-box {
+  text-align: center;
+  font-family: var(--style-text);
+}
+
+.signup-box span {
+  color: #1d83a8;
+}

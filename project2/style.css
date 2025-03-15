@@ -1,0 +1,125 @@
+:root {
+  --text-style: "Source Sans Pro", sans-serif;
+  --text-color: rgb(137, 136, 136);
+}
+
+body {
+  background-color: #1d83a8;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+.linkedin-logo {
+  font-family: var(--text-style);
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+.linkedin-logo span {
+  background-color: white;
+  color: #0077b5;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.text {
+  font-size: 30px;
+  font-family: var(--text-style);
+  font-weight: bold;
+  color: white;
+}
+.login {
+  background-color: rgba(245, 245, 245, 0.905);
+  width: 400px;
+  height: 450px;
+  text-align: center;
+  padding: 50px;
+  margin: auto;
+}
+.text-box {
+  color: var(--text-color);
+  text-align: start;
+  font-family: var(--text-style);
+}
+.box {
+  background-color: white;
+  height: 30px;
+  width: 400px;
+  border: 0;
+}
+.text-note {
+  color: var(--text-color);
+  font-family: var(--text-style);
+  font-size: 14px;
+}
+.text-note span {
+  color: rgb(32, 31, 31);
+}
+.text-note span span {
+  color: var(--text-color);
+  font-weight: lighter;
+}
+.join-box {
+  background-color: #0077b5;
+  height: 30px;
+  width: 400px;
+  border: 0;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  font-weight: bold;
+  font-family: var(--text-style);
+}
+.line {
+  display: table-cell;
+  border-bottom: 1px solid var(--text-color);
+  width: 48%;
+}
+
+.or {
+  display: table-cell;
+  padding: 0 10px;
+  white-space: nowrap;
+  line-height: 5px;
+  color: var(--text-color);
+}
+.facebook-button {
+  display: flex;
+  background-color: #025b8c;
+  color: white;
+  font-family: var(--text-style);
+  width: 400px;
+  height: 30px;
+}
+.icon {
+  padding-left: 10px;
+  font-size: 35px;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.rong {
+  width: 110px;
+}
+.fb-text {
+  line-height: 25px;
+}
+.different {
+  color: rgb(32, 31, 31);
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  font-family: var(--text-style);
+}
+.different span {
+  color: rgb(22, 129, 195);
+}
+.last-note {
+  color: rgba(208, 208, 208, 0.886);
+  padding: 5px;
+}
+.fa-registered {
+  font-size: 10px;
+  margin: 2px;
+  color: rgba(208, 208, 208, 0.886);
+}
