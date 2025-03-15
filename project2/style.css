@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #1d83a8;
+  background-color: #0082a0;
   text-align: center;
   padding: 20px;
   margin: 0;
@@ -29,7 +29,7 @@ body {
   color: white;
 }
 .login {
-  background-color: rgba(245, 245, 245, 0.905);
+  background-color: #efefef;
   width: 400px;
   height: 450px;
   text-align: center;
@@ -60,7 +60,7 @@ body {
   font-weight: lighter;
 }
 .join-box {
-  background-color: #0077b5;
+  background-color: #2277b7;
   height: 30px;
   width: 400px;
   border: 0;
@@ -85,7 +85,7 @@ body {
 }
 .facebook-button {
   display: flex;
-  background-color: #025b8c;
+  background-color: #385a9b;
   color: white;
   font-family: var(--text-style);
   width: 400px;
