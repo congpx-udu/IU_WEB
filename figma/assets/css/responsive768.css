@@ -1,0 +1,148 @@
+@media (max-width: 768px) {
+  .btn {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .menu-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  h1 {
+    font-size: 54px;
+  }
+
+  h1,
+  p {
+    margin: 40px 0;
+  }
+
+  #header {
+    padding: 0 5%;
+  }
+
+  #slider {
+    height: 1051px;
+  }
+
+  #slider .sub-slider {
+    padding: 5%;
+    height: 1051px;
+  }
+
+  .content-slider {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+  }
+
+  button {
+    margin: 0 auto;
+  }
+
+  #work-management {
+    height: 1798px;
+  }
+
+  #work-management .content-management {
+    padding: 5%;
+  }
+
+  .content-management .content-top {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .content-management .content-top h1 {
+    max-width: 100%;
+  }
+
+  .content-management .content-top .left-content img {
+    max-width: 80%;
+    position: absolute;
+    top: 18%;
+    left: 40%;
+    z-index: -1;
+  }
+
+  .content-management .content-bottom {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .content-management .content-bottom .right-content img {
+    max-width: 50%;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    z-index: -1;
+  }
+
+  .content-management .content-bottom .left-content img {
+    max-width: 60%;
+  }
+
+  #extension {
+    height: 917px;
+  }
+
+  #extension .sub-extension {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5%;
+  }
+
+  .sub-extension .left-content img {
+    max-width: 50%;
+    top: 17%;
+    left: 55%;
+  }
+
+  .sub-extension .right-content img {
+    max-width: 80%;
+  }
+
+  #customise .content-customise {
+    padding: 5% 3%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+
+  .content-customise .right-content h1 {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  .content-customise .right-content img {
+    max-width: 43%;
+    top: 10%;
+    left: 74%;
+  }
+
+  .content-customise .left-content img {
+    max-width: 80%;
+  }
+
+  #choose .content-choose {
+    padding: 0;
+  }
+}

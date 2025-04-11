@@ -1,0 +1,58 @@
+@media (max-width: 1440px) {
+  #header {
+    padding: 0 2%;
+  }
+
+  #slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 656px;
+  }
+
+  #slider .sub-slider {
+    padding: 2%;
+  }
+
+  #work-management {
+    height: 1370px;
+  }
+
+  #work-management .content-management {
+    padding: 2%;
+  }
+
+  .content-management .content-top h1 {
+    max-width: 40%;
+  }
+
+  #work-management .brg img {
+    top: 0;
+    left: 0;
+    content: url("../img/Group2.png");
+  }
+
+  #extension .sub-extension {
+    padding: 2%;
+  }
+
+  .sub-extension .left-content img {
+    left: 35%;
+  }
+
+  #customise .content-customise {
+    padding: 2%;
+  }
+
+  .content-customise .right-content h1 {
+    max-width: 80%;
+  }
+
+  #choose .content-choose {
+    padding: 2%;
+  }
+
+  .content-choose .type-choose .choose-card:hover {
+    padding: 30% 8%;
+  }
+}

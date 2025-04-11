@@ -1,0 +1,46 @@
+@media (max-width: 1152px) {
+  .nav {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .menu-toggle {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+  }
+
+  .btn {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+  }
+
+  .content-management .content-top .left-content img {
+    max-width: 75%;
+    left: 30%;
+    top: 40%;
+  }
+
+  .content-management .content-bottom .right-content img {
+    max-width: 70%;
+
+    right: -5%;
+  }
+
+  .sub-extension .left-content img {
+    max-width: 90%;
+    top: 40%;
+    left: 0;
+  }
+
+  .content-customise .right-content h1 {
+    max-width: 100%;
+  }
+}
