@@ -565,3 +565,138 @@ button {
   margin: 0;
   margin-left: 30px;
 }
+
+#free-trial {
+  width: 100%;
+  height: 705px;
+  background-color: #043873;
+}
+
+#free-trial .free-trial-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 8%;
+  text-align: center;
+}
+
+.free-trial-content .free-ct {
+  width: 608px;
+}
+
+.free-trial-content .free-ct h1 {
+  font-size: 72px;
+}
+
+.free-trial-content .free-ct p {
+  margin: 0;
+}
+
+.free-trial-content .free-ct .sub-btn {
+  margin: 5% auto;
+}
+
+.free-trial-content .free-ct .free-img {
+  margin: 5%;
+}
+
+.free-trial-content .free-ct .free-img img {
+  margin: 0 20px;
+  width: 60px;
+  height: auto;
+}
+
+#footer {
+  width: 100%;
+  height: 474px;
+  background-color: #043873;
+}
+
+#footer .footer-content {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 8%;
+  padding-bottom: 5%;
+  color: #fff;
+  flex-direction: column;
+}
+
+.footer-content .top-ct {
+  display: flex;
+  flex-direction: row;
+  align-self: start;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.top-ct .footer-ct,
+.top-ct .footer-ct1 {
+  width: 205px;
+  margin: 0 20px;
+}
+
+.top-ct .footer-ct1 p {
+  line-height: 30px;
+}
+
+.top-ct .footer-ct h2 {
+  margin-bottom: 20px;
+}
+
+.top-ct .footer-ct p {
+  margin: 0;
+  line-height: 40px;
+}
+
+.top-ct p:hover {
+  color: #ffe492;
+}
+
+.top-ct .footer-ct .sub-btn {
+  width: 70%;
+  margin-top: 20px;
+}
+
+.mid-ct {
+  width: 100%;
+  margin: 7% auto;
+}
+
+.mid-ct hr {
+  color: #2e4e73;
+  opacity: 0.2;
+}
+
+.bottom-ct {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-self: flex-start;
+}
+
+.bottom-ct .left-ct {
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.bottom-ct .left-ct .left-ct-ft {
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+}
+
+.bottom-ct .left-ct p {
+  margin: 0 10px;
+}
+
+.bottom-ct .right-ct img {
+  margin: 0 10px;
+}
